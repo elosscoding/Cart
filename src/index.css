@@ -1,0 +1,108 @@
+.pageName {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid 2px #B74000;
+  margin: 5px;
+  position: sticky;
+  background: white;
+  top: 0;
+  z-index: 10;
+}
+
+.footerPage {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: #511C00;
+}
+
+.footerPage p {
+  padding: 5px;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.mainSection {
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mainSection img {
+  width: 400px;
+  height: 300px;
+  margin: 1%;
+  transition: all 1s;
+}
+
+.mainSection img:hover {
+  transform: scale(1.05);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+  .mainSection img {
+    width: 200px;
+    height: 150px;
+    margin: 5px;
+    transition: all 1s;
+  }
+}
+
+
+.scoreCard {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.stars {
+  font-size: 24px;
+  text-align: center;
+}
+
+a {
+  cursor: pointer;
+}
+
+.star {
+  color: black;
+}
+
+.active {
+  color: gold;
+}
+
+.active:hover {
+  color: yellow;
+}
+
+.star:hover {
+  color: yellow;
+}
+
+.boton {
+  background: linear-gradient(135deg, #f54927, #f4320b);
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  padding: 10x;
+}
+
+.contenedorSaludar {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+
+}
